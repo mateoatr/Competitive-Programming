@@ -1,0 +1,17 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+bool orden(int i, int j){
+  return i > j; }
+
+int main(){
+  string s;
+  
+  while(cin >> s && s != "#"){
+    if(next_permutation(s.begin(),s.end())) cout << s << endl;
+    else cout << "No Successor" << endl;
+  }
+
+  return 0;
+}
