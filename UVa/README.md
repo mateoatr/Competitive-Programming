@@ -7,3 +7,4 @@ Problems are taken from the [UVa Online Judge](https://uva.onlinejudge.org/). Th
 ### Binomial Coefficients
 
 - 369 : Construction of a table for binomial coefficients.
+- 530 : Compute binomials that fit into a 32 bit integer. Take into account that binomial values repeat after 'k > n/2'.
