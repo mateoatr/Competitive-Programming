@@ -13,10 +13,10 @@ Problems are taken from the [UVa Online Judge](https://uva.onlinejudge.org/). Th
 
 ### Basic Features (BigInteger)
 
-The book and uHunt recommend solving these with the BigInteger Class of Java. I opted for using Python to solve these problem, since Python is now being accepted by the judges in the ACM ICPC.
+The book and uHunt recommend solving these with the BigInteger Class of Java. Since Python is now being accepted by the judges in the ICPC, I opted for using it for solving these problems.
 
 - **424** : Add big numbers.
-- **465** : Very easy problem, just remember that INT_MAX = 2**31 - 1. I got two wrong answers because of typos [grin].
+- **465** : Very easy problem, just remember that `INT_MAX = 2**31 - 1`. I got two wrong answers because of typos [grin].
 - **713** : Simple function to reverse a number.
 
 
@@ -24,4 +24,4 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. I 
 
 - **369** : Construction of a table for binomial coefficients.
 - **530** : Compute binomials that fit into a 32 bit integer. Take into account that binomial values repeat after `k > n/2`.
-- **10105** : For multinomials of the form (a + b + ...)^n, the coefficient of the product with exponent A for a, B for b, ... is equal to n!/(A! * B! * ...).
+- **10105** : For multinomials of the form `(a + b + ...)^n`, the coefficient of the product with exponent `A` for `a`, `B` for `b`, ... is equal to `n!/(A! * B! * ...)`.
