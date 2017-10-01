@@ -6,9 +6,19 @@ Problems are taken from the [UVa Online Judge](https://uva.onlinejudge.org/). Th
 
 ### C++ STL stack
 
+- **514** : Ad-hoc stack problem. Good for understanding how stacks work.
 - **732** : DFS-like recursion. Check if the goal word is being made when popping elements from the stack.
 
 ## Mathematics
+
+### Basic Features (BigInteger)
+
+The book and uHunt recommend solving these with the BigInteger Class of Java. I opted for using Python to solve these problem, since Python is now being accepted by the judges in the ACM ICPC.
+
+- **424** : Add big numbers.
+- **465** : Very easy problem, just remember that INT_MAX = 2**31 - 1. I got two wrong answers because of typos [grin].
+- **713** : Simple function to reverse a number.
+
 
 ### Binomial Coefficients
 
