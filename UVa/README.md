@@ -18,10 +18,12 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. Si
 - **424** : Add big numbers.
 - **465** : Very easy problem, just remember that `INT_MAX = 2**31 - 1`. I got two wrong answers because of typos [grin].
 - **713** : Simple function to reverse a number.
-
+- **10524** : Very easy.
+- **11879** : Very easy, just use Pythons modulo.
 
 ### Binomial Coefficients
 
 - **369** : Construction of a table for binomial coefficients.
+- **485** : Easy problem. My code for this one contains an optimum way of calculating nCr with Python.
 - **530** : Compute binomials that fit into a 32 bit integer. Take into account that binomial values repeat after `k > n/2`.
 - **10105** : For multinomials of the form `(a + b + ...)^n`, the coefficient of the product with exponent `A` for `a`, `B` for `b`, ... is equal to `n!/(A! * B! * ...)`.
