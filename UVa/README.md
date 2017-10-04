@@ -27,3 +27,4 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. Si
 - **485** : Easy problem. My code for this one contains an optimum way of calculating nCr with Python.
 - **530** : Compute binomials that fit into a 32 bit integer. Take into account that binomial values repeat after `k > n/2`.
 - **10105** : For multinomials of the form `(a + b + ...)^n`, the coefficient of the product with exponent `A` for `a`, `B` for `b`, ... is equal to `n!/(A! * B! * ...)`.
+- **10375** : A good use of Pythons optimum way of calculating nCr (good example of how useful this method is).
