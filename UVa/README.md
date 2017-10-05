@@ -28,3 +28,10 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. Si
 - **530** : Compute binomials that fit into a 32 bit integer. Take into account that binomial values repeat after `k > n/2`.
 - **10105** : For multinomials of the form `(a + b + ...)^n`, the coefficient of the product with exponent `A` for `a`, `B` for `b`, ... is equal to `n!/(A! * B! * ...)`.
 - **10375** : A good use of Pythons optimum way of calculating nCr (good example of how useful this method is).
+- **10532** : Solved with dynamic programming. Make a table, and for each `[i,j]` save in how many ways can we choose k objects from the remaining r-i cells if the previous cell has value n.
+
+### Catalan Numbers
+
+[Catalan numbers](http://mathworld.wolfram.com/CatalanNumber.html) are of the form: `(1/(n+1)) * (2n)C(n)`.
+
+- **991** : Simply compute the `C_n` Catalan number.
