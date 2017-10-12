@@ -35,3 +35,4 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. Si
 [Catalan numbers](http://mathworld.wolfram.com/CatalanNumber.html) are of the form: `(1/(n+1)) * (2n)C(n)`.
 
 - **991** : Simply compute the `C_n` Catalan number.
+- **10007** : The number of different 'binary tree structures' of a tree with `n` nodes is `Cn`. Formula for this problem is `Cn * n!`. Note that `math.factorial(x)` computes factorials pretty fast.
