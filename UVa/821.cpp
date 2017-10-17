@@ -4,7 +4,7 @@
 using namespace std;
 
 int main () {
-  int u, v;
+  int u, v, c = 0;
 
   while (cin >> u >> v && (u + v != 0)) {
     int adjMatrix[105][105];
@@ -35,7 +35,7 @@ int main () {
       }
     }
 
-    cout << fixed << setprecision(3) << ans/pairs << endl;
+    cout << "Case " << ++c << ": average length between pages = " << fixed << setprecision(3) << ans/pairs << " clicks" << endl;
   }
   
   return 0;
