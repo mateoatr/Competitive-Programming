@@ -16,4 +16,4 @@ for line in sys.stdin:
     n = int(line)
     if n == 0:
         break
-    print (int((1/(n+1)) * (ncr(2*n, n))) * math.factorial(n))
+    print (((1/(n+1)) * (ncr(2*n, n))) * math.factorial(n))
