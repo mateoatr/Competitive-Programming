@@ -36,3 +36,10 @@ The book and uHunt recommend solving these with the BigInteger Class of Java. Si
 
 - **991** : Simply compute the `C_n` Catalan number.
 - **10007** : The number of different 'binary tree structures' of a tree with `n` nodes is `Cn`. Formula for this problem is `Cn * n!`. Note that `math.factorial(x)` computes factorials pretty fast.
+
+## Problem Solving and Paradigms
+
+### Binary Search
+
+- **679** : Traverse a binary tree multiple times.
+- **10474** : Simple binary search. It can be solved by implementing an iterative/recursive binary search or simply by using `lower_bound` of the STL.
